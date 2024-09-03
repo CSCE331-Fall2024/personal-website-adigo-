@@ -1,0 +1,41 @@
+body {
+    background-color: #372b50; 
+    color: white;
+}
+
+
+.accent-color {
+    color: #5ce1e6;
+}
+
+
+nav {
+    padding: 10px 0;
+}
+nav ul {
+    list-style-type: none; 
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    justify-content: center; 
+}
+
+nav ul li:first-child {
+    margin-right: auto; 
+}
+
+nav ul a {
+    color: white; 
+    text-decoration: none;
+    padding: 10px 20px;
+    margin: 0 10px; 
+    
+}
+
+nav ul li:first-child a {
+    font-size: 1.5em;
+}
+
+nav ul a:hover {
+    color: #5ce1e6; 
+}
