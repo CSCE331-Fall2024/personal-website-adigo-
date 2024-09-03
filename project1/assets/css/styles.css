@@ -45,7 +45,7 @@ nav ul a:hover {
     align-items: center; 
     justify-content: space-between; 
     margin-top: 20px;
-    margin-left: 220px; /* Adjust for sidebar width */
+    margin-left: 220px; 
     padding: 20px;
 }
 
@@ -55,7 +55,7 @@ nav ul a:hover {
 }
 
 .image-container {
-    margin-left: 10px; /* Space between text and image */
+    margin-left: 10px; 
 }
 
 .image-container img {
@@ -111,15 +111,15 @@ nav ul a:hover {
 
 .container {
     display: grid;
-    grid-template-columns: 200px 1fr; /* Sidebar and content */
-    height: 100vh; /* Full viewport height */
+    grid-template-columns: 200px 1fr; 
+    height: 100vh;
 }
 
-.sidebar { /* Dark background for sidebar */
+.sidebar { 
     padding: 20px;
-    position: fixed; /* Fix the sidebar in place */
-    height: 100%; /* Full height */
-    overflow-y: auto; /* Scroll if content overflows */
+    position: fixed; 
+    height: 100%;
+    overflow-y: auto; 
 }
 
 
@@ -147,9 +147,9 @@ nav ul a:hover {
 
 
 .section {
-    display: none; /* Hide all sections by default */
+    display: none; 
 }
 
 .section.active {
-    display: block; /* Show the active section */
+    display: block; 
 }
