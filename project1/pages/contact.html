@@ -1,40 +1,44 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Project 1</title>
+    <title>Contact Me</title>
     <link rel="stylesheet" href="../assets/css/styles.css">
 </head>
-
 <body>
     <div>
         <nav>
             <ul>
                 <li><a href="../index.html">Aditya</a></li>
-                <li><a href="resume.html">Resume</a></li>
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="service.html">Service</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="resume.html">resume</a></li>
+                <li><a href="projects.html">projects</a></li>
+                <li><a href="service.html">service</a></li>
+                <li><a href="contact.html" class="accent-color">contact</a></li>
             </ul>
         </nav>
-        <div class="contact-form">
-            <h1>Contact Me</h1>
-            <form action="submit_form.php" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
-                
-                <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-                
-                <label for="message">Message:</label>
-                <textarea id="message" name="message" rows="5" required></textarea>
-                
-                <button type="submit">Send</button>
-            </form>
-        </div>
     </div>
-</body>
+    <div class="contact-form">
+        <h1>Contact Me</h1>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="your name" required>
 
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="your email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" placeholder="your message" required ></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+    <br>
+    <br>
+    <footer>
+        
+        <p2 >AI prompt: 1)generate a contact me page with the fields name, email, and meassage. 2)add a footer</p2>
+    </footer>
+    <script src="../assets/js/script.js"></script>
+</body>
 </html>
