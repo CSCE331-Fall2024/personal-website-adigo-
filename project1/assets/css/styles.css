@@ -137,6 +137,27 @@ nav ul a:hover {
     display: flex;
     
 }
+.project{
+    background-color: #685a87;
+    padding: 30px;
+    border-radius: 3%;
+
+}
+
+.service_grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px;
+    padding: 20px;
+}
+.service{
+    background-color: #685a87;
+    padding: 40px;
+    border-radius: 30px;
+    text-align: center;
+    margin: 30px;
+}
+
 .resume{
     display: flex;
     flex-direction: column;
@@ -179,7 +200,8 @@ nav ul a:hover {
 #box2 {
     padding: 20px; 
     margin-top:60px;
-    margin-left:60px
+    margin-left:60px;
+    
 }
 #box2 img {
     max-width: 100%; 
@@ -190,6 +212,7 @@ nav ul a:hover {
     margin-bottom: 20px;
     padding-top: 0px;
     background-color: #000000;  
+    border-radius: 10%;
 }
 
 #box3{
@@ -198,12 +221,15 @@ nav ul a:hover {
     display : flex;
     justify-content: center;
     
+
+    
 }
 #box3 img{
     max-width: 100%; 
     width: 600px; 
     height: 400px; 
     margin-top: 0px;
+    border-radius: 10%;
     
 }
 
@@ -270,3 +296,22 @@ nav ul a:hover {
     color: #5ce1e6; 
 }
 
+.links3 {
+    
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 20px;
+
+}
+.links3 a{
+    color: white;
+    text-decoration: none; 
+    padding: 10px 20px; 
+    margin: 0 10px; 
+    font-size: 2em;
+}
+.links3 a:hover {
+    color: #38E4AE; 
+}
