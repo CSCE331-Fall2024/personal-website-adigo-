@@ -345,3 +345,9 @@ textarea::placeholder {
 .links3 a:hover {
     color: #5ce1e6;
 }
+
+#toggle {
+    background-color: #372b50; 
+    color: black;
+    border: 0; 
+}
