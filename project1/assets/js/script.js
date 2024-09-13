@@ -3,7 +3,7 @@ function load_style() {
     if (page_style == null) {
         page_style = "styles.css";
     }
-    document.getElementById("page_style").setAttribute("href", "assets/css/" + page_style);
+    document.getElementById("page_style").setAttribute("href", "public_html/assets/css/" + page_style);
 }
 
 // function default_style() {
